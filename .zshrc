@@ -2,11 +2,7 @@
 export PATH=/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-<<<<<<< HEAD
 export ZSH="/Users/robmaurizio/.oh-my-zsh"
-=======
-export ZSH="/Users/rob/.oh-my-zsh"
->>>>>>> b782f7a4be56eda31c2e9064f7f752dc7d45a752
 
 # Path to tell macOS to use updated nano and gettext
 export PATH="/usr/local/opt/gettext/bin:$PATH"
@@ -35,30 +31,17 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 alias zshrc='code ~/.zshrc'
 alias ohmyzsh='code ~/.oh-my-zsh'
-<<<<<<< HEAD
-alias loadzsh='source ~/.zshrc'
 
 alias sudo='sudo '
 alias root='sudo -i'
 alias grep='grep --color'
 
 # applications
-=======
-
-alias sudo='sudo '
-alias root='sudo -i'
-alias ls='ls --color'
-alias grep='grep --color'
-
-# applications
 alias loadzsh='source ~/.zshrc'
->>>>>>> b782f7a4be56eda31c2e9064f7f752dc7d45a752
 alias python='python3'
 alias e="$EDITOR"
 
 # directories & navigation #
-<<<<<<< HEAD
-=======
 function cd() {
    new_directory="$*";
    if [ $# -eq 0 ]; then
@@ -66,7 +49,6 @@ function cd() {
    fi;
    builtin cd "${new_directory}" && ls
  }
->>>>>>> b782f7a4be56eda31c2e9064f7f752dc7d45a752
 alias ..='cd ..'
 alias ...='cd ..; cd ..'
 alias ....='cd ..; cd ..; cd ..'
