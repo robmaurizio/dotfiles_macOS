@@ -67,4 +67,4 @@ alias rebootnow='sudo shutdown -r now'
 
 # software update #
 alias brewup='brew update ; brew upgrade && brew cask upgrade ; brew cleanup ; brew cleanup -s ; brew missing ; brew doctor'
-alias macupdate='softwareupdate -ia'
+alias macup='softwareupdate -ia'
