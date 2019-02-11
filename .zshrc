@@ -31,9 +31,11 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 alias zshrc='code ~/.zshrc'
 alias ohmyzsh='code ~/.oh-my-zsh'
+
 alias sudo='sudo '
 alias root='sudo -i'
 alias ls='ls --color'
+alias grep='grep --color'
 
 # applications
 alias loadzsh='source ~/.zshrc'
@@ -58,7 +60,6 @@ alias apps='cd /Applications'
 
 alias c='clear'
 alias ps='ps -acx'
-alias grep='grep --color'
 
 # system functions #
 alias sleepnow='pmset sleepnow'
