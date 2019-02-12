@@ -34,7 +34,6 @@ alias ohmyzsh='code ~/.oh-my-zsh'
 
 alias sudo='sudo '
 alias root='sudo -i'
-alias ls='ls --color'
 alias grep='grep --color'
 
 # applications
