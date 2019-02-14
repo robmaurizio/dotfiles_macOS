@@ -1,1 +1,1 @@
-set -U EDITOR "code"
+set -U EDITOR "atom"
