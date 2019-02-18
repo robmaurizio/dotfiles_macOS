@@ -4,6 +4,7 @@ alias cd..="cd .."
 alias c="clear"
 alias q='exit'
 alias ls='ls -FG'
+alias la='ls -aFG'
 alias apps='cd /Applications'
 alias gdrive='cd ~/Google\ Drive/'
 alias pydir='cd ~/Google\ Drive/Python'
@@ -26,6 +27,8 @@ alias rebootnow='sudo shutdown -r now'
 # Software updates and cleanup
 alias brewup='brew update ; brew upgrade && brew cask upgrade ; brew cleanup ; brew cleanup -s ; brew missing ; brew doctor'
 alias macup='softwareupdate -ia'
+alias reload='source ~/.bashrc'
 
 # Applications
 alias python='python3'
+alias edit='atom'
