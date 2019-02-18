@@ -6,9 +6,10 @@ alias q='exit'
 alias ls='ls -FG'
 alias la='ls -aFG'
 alias apps='cd /Applications'
-alias gdrive='cd ~/Google\ Drive/'
+alias gd='cd ~/Google\ Drive/'
 alias pydir='cd ~/Google\ Drive/Python'
-alias desk='cd ~/Desktop/'
+alias dt='cd ~/Desktop/'
+alias dl='cd ~/Downloads/'
 alias hs='history | grep'
 alias grep="grep -Hn --color=auto"
 alias sudo='sudo '
@@ -28,6 +29,7 @@ alias rebootnow='sudo shutdown -r now'
 alias brewup='brew update ; brew upgrade && brew cask upgrade ; brew cleanup ; brew cleanup -s ; brew missing ; brew doctor'
 alias macup='softwareupdate -ia'
 alias reload='source ~/.bashrc'
+alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
 
 # Applications
 alias python='python3'
