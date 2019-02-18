@@ -8,7 +8,7 @@ export HISTCONTROL=ignoredups
 export CLICOLOR=1
 
 # Prompt
-PS1='\[\e[36m\W\] \[\e[33m\]λ \[\e[0m\]'
+PS1='\[\e[36m\W\] \[\e[31m\]❯\[\[\e[33m\]❯\[\[\e[32m\]❯ \[\e[0m\]'
 
 # Add bash aliases
 if [ -f ~/.aliases ]; then
