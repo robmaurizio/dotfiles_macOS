@@ -1,11 +1,11 @@
 # Set the default editor to atom
-export EDITOR=atom
+export EDITOR=atom;
 
 # Avoid succesive duplicates in the bash command history
-export HISTCONTROL=ignoredups
+export HISTCONTROL=ignoredups;
 
 # Adds color to terminal output
-export CLICOLOR=1
+export CLICOLOR=1;
 
 # Prompt
 if [ `id -u` = 0 ]
