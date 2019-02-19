@@ -39,5 +39,5 @@ alias cleanupds="find . -type f -name '*.DS_Store' -ls -delete"
 # Applications
 alias python='python3'
 alias edit='atom'
-alias commit="git add . && git commit -m"
-alias push='git push'
+alias gcommit="git add . && git commit -m"
+alias gpush='git push'
