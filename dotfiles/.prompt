@@ -18,8 +18,6 @@ directory='W'
 chevron='❯'
 
 # the prompt
-#PS1=${gray}${directory} ${red}${chevron}${yellow}${chevron}${green}${chevron}${reset} '
-
 PS1="\[${lightgray}\]\W ";
 PS1+="\[${red}\]❯";
 PS1+="\[${yellow}\]❯";
