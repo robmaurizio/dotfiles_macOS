@@ -1,5 +1,3 @@
-#!/bin/bash
-
 # Navigation
 alias ..="cd .."
 alias cd..="cd .."
@@ -31,7 +29,7 @@ alias rebootnow='sudo shutdown -r now'
 # Software updates and cleanup
 alias brewup='brew update ; brew upgrade && brew cask upgrade ; brew cleanup ; brew cleanup -s ; brew missing ; brew doctor'
 alias macup='softwareupdate -ia' # Looks for updates and installs all
-alias reload='source ~/.bashrc'
+alias reload='source ~/dotfiles/.bashrc'
 alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
 
 # Applications
