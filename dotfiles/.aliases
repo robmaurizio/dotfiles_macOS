@@ -30,7 +30,7 @@ alias rebootnow='sudo shutdown -r now'
 alias brewup='brew update ; brew upgrade && brew cask upgrade ; brew cleanup ; brew cleanup -s ; brew missing ; brew doctor'
 alias macup='softwareupdate -ia' # Looks for updates and installs all
 alias reload='source ~/dotfiles/.bashrc'
-alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
+alias cleanupds="find . -type f -name '*.DS_Store' -ls -delete"
 
 # Applications
 alias python='python3'
