@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Open man page as PDF
+# Open a man page as PDF for a better reading experience
 function manpdf() {
   man -t "$1" | open -f -a /Applications/Preview.app/
 }
