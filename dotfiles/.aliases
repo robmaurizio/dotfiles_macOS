@@ -14,7 +14,7 @@ alias library="cd ~/Library"
 alias dt='cd ~/Desktop/'
 alias dl='cd ~/Downloads/'
 alias hs='history | grep'
-alias grep="grep -Hn --color=auto" # Shows results of search in color
+alias grep="grep --color=always" # Shows results of search in color
 
 # File operations
 alias mv='mv -v' # move -verbose
@@ -23,7 +23,7 @@ alias empty="sudo rm -rf ~/.Trash/*" # takes out the trash
 alias rm='rm -vi' # remove -verbose and interactive
 
 # System
-alias ps='ps -acx'
+alias ps='ps -acmx'
 alias root='sudo -i' # allow root access
 alias rebootnow='sudo shutdown -r now'
 alias sudo='sudo ' # makes aliases sudo-able
