@@ -1,0 +1,39 @@
+#!/bin/bash
+
+# Navigation
+alias ..="cd .."
+alias cd..="cd .."
+alias c="clear"
+alias q='exit'
+alias ls='ls -FG' # list files in the current directory
+alias la='ls -aFG' # list (all) files in the current directory
+alias apps='cd /Applications'
+alias gd='cd ~/Google\ Drive/'
+alias pydir='cd ~/Google\ Drive/Python'
+alias dt='cd ~/Desktop/'
+alias dl='cd ~/Downloads/'
+alias hs='history | grep'
+alias grep="grep -Hn --color=auto" # Shows results of search in color
+alias sudo='sudo ' # makes aliases sudo-able
+alias bashrc='edit ~/.bashrc'
+
+# File operations
+alias mv='mv -v' # move -verbose
+alias cp='cp -v' # copy -verbose
+alias empty="sudo rm -rf ~/.Trash/*" # takes out the trash
+alias rm='rm -vi' # remove -verbose and interactive
+
+# System
+alias ps='ps -acx'
+alias root='sudo -i' # allow root access
+alias rebootnow='sudo shutdown -r now'
+
+# Software updates and cleanup
+alias brewup='brew update ; brew upgrade && brew cask upgrade ; brew cleanup ; brew cleanup -s ; brew missing ; brew doctor'
+alias macup='softwareupdate -ia' # Looks for updates and installs all
+alias reload='source ~/.bashrc'
+alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
+
+# Applications
+alias python='python3'
+alias edit='atom'
