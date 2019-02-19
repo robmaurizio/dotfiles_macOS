@@ -1,2 +1,4 @@
-# Load .bashrc, containing non-login related bash initializations
-source ~/.bashrc
+#!/bin/bash
+
+# Load .bashrc
+source ~/dotfiles/.bashrc
