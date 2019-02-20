@@ -17,5 +17,5 @@ yellow="\e[33m"
 PS1="\[${lightgray}\]\W ";
 PS1+="\[${red}\]❯";
 PS1+="\[${yellow}\]❯";
-PS1+="\[${green}\]❯\[${reset}\] "; # end prompt (and reset color)
+PS1+="\[${green}\]❯\[${reset}\] ";
 export PS1
