@@ -41,3 +41,4 @@ alias python='python3'
 alias edit='atom'
 alias gcommit="git add . && git commit -m"
 alias gpush='git push'
+alias gpull='git pull'
