@@ -13,10 +13,6 @@ violet="\e[35m"
 lightgray="\e[37m"
 yellow="\e[33m"
 
-# define prompt parts
-directory='W'
-chevron='❯'
-
 # the prompt
 PS1="\[${lightgray}\]\W ";
 PS1+="\[${red}\]❯";
