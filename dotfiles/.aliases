@@ -3,8 +3,8 @@ alias ..="cd .."
 alias cd..="cd .."
 alias c="clear"
 alias q='exit'
-alias ls='ls -FG' # list files in the current directory
-alias la='ls -aFG' # list (all) files in the current directory
+alias ls='ls -FG' # List files in the current directory
+alias la='ls -aFG' # List (all) files in the current directory
 
 # Directories
 alias apps='cd /Applications'
@@ -14,25 +14,25 @@ alias library="cd ~/Library"
 alias dt='cd ~/Desktop/'
 alias dl='cd ~/Downloads/'
 alias hs='history | grep'
-alias grep="grep --color=always" # Shows results of search in color
+alias grep="grep --color=always" # Show results of search in color
 
 # File operations
-alias mv='mv -v' # move -verbose
-alias cp='cp -v' # copy -verbose
-alias empty="sudo rm -rf ~/.Trash/*" # takes out the trash
-alias rm='rm -vi' # remove -verbose and interactive
+alias mv='mv -v' # Move -verbose
+alias cp='cp -v' # Copy -verbose
+alias rm='rm -vi' # Remove -verbose and interactive
+alias empty="sudo rm -rf ~/.Trash/*" # Take out the trash
 
 # System
 alias ps='ps -acmx'
-alias root='sudo -i' # allow root access
+alias root='sudo -i' # Allow root access
 alias rebootnow='sudo shutdown -r now'
-alias sudo='sudo ' # makes aliases sudo-able
+alias sudo='sudo ' # Make aliases sudo-able
 alias bashrc='edit ~/.bashrc'
-alias grep="grep -Hn --color=auto" # Shows results of search in color
+alias grep="grep -Hn --color=auto" # Show results of search in color
 
 # Software updates and cleanup
 alias brewup='brew update ; brew upgrade && brew cask upgrade ; brew cleanup ; brew cleanup -s ; brew missing ; brew doctor'
-alias macup='softwareupdate -ia' # Looks for updates and installs all
+alias macup='softwareupdate -ia' # Look for updates and installs all
 alias reload='source ~/dotfiles/.bashrc'
 alias cleanupds="find . -type f -name '*.DS_Store' -ls -delete"
 
