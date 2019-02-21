@@ -1,6 +1,4 @@
-#!/usr/bin/env bash
-
-# define prompt colors
+# Define prompt colors
 reset="\e[0m"
 black="\e[30m"
 blue="\e[34m"
@@ -13,7 +11,7 @@ violet="\e[35m"
 lightgray="\e[37m"
 yellow="\e[33m"
 
-# the prompt
+# Customize and set the prompt
 PS1="\[${lightgray}\]\W ";
 PS1+="\[${red}\]❯";
 PS1+="\[${yellow}\]❯";

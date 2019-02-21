@@ -4,10 +4,14 @@ export EDITOR=atom;
 # Avoid succesive duplicates in the bash command history
 export HISTCONTROL=ignoredups;
 
-# Adds color to terminal output
+# Add color to terminal output
 export CLICOLOR=1;
 
-# calling the dotfiles
+# Activate my .inputrc file for keybindings and other options
+bind -f ~/dotfiles/.inputrc
+
+# Call the dotfiles
 source ~/dotfiles/.functions
+source ~/dotfiles/.inputrc
 source ~/dotfiles/.prompt
 source ~/dotfiles/.aliases
