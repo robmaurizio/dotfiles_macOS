@@ -31,7 +31,7 @@ alias bashrc='edit ~/.bashrc'
 alias grep="grep -Hn --color=auto" # Show results of search in color
 
 # Software updates and cleanup
-alias update='softwareupdate -ia ; brew update ; brew upgrade ; brew cask upgrade ; brew cleanup ; brew cleanup -s ; brew missing ; brew doctor' # Look for updates to macOS and applications
+alias update='python3 ~/dotfiles/Software\ update.py' # Look for updates to macOS and applications
 alias reload='source ~/dotfiles/.bashrc'
 alias cleanupds="find . -type f -name '*.DS_Store' -ls -delete"
 
