@@ -14,7 +14,7 @@ print('\nBrew updates are done. Now doing some cleanup.')
 time.sleep(1)
 
 # Cleanup after running updates
-os.system('brew cleanup ; brew cleanup -s')
+os.system('brew cleanup ; brew cleanup -s ; cleanupds')
 
 print('Cleanup is done. Checking for macOS updates.\n')
 
