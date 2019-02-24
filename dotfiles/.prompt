@@ -12,7 +12,7 @@ lightgray="\e[37m"
 yellow="\e[33m"
 
 # Customize and set the prompt
-PS1="\[${lightgray}\]\W ";
+PS1="\[${orange}\]\W ";
 PS1+="\[${red}\]❯";
 PS1+="\[${yellow}\]❯";
 PS1+="\[${green}\]❯\[${reset}\] ";
