@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 echo ""
 echo "Checking for software updates via Brew."
