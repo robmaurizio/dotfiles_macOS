@@ -5,9 +5,7 @@ echo "Checking for software updates via Brew."
 echo ""
 
 # Updates Homebrew, taps, and repos
-brew update
-brew upgrade
-brew cask upgrade
+brew update;brew upgrade;brew cask upgrade
 
 echo ""
 echo "Brew updates are done. Now doing some cleanup."
@@ -27,7 +25,7 @@ echo ""
 sleep 1
 
 # Checks for macOS updates and install all available
-softwareupdate -ia
+softwareupdate --install --all
 
 echo ""
 echo "Finished! Your system is ready."
