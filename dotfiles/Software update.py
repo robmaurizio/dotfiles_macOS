@@ -3,12 +3,12 @@
 import os
 import time
 
-print("\nChecking for software updates via Brew...\n")
+print('\nChecking for software updates via Brew...')
 
 # Updates Homebrew, taps, and repos
 os.system('brew update ; brew upgrade ; brew cask upgrade')
 
-print('\nBrew updates are done. Now for some cleanup...')
+print('\nUpdates are done. Now for some cleanup...')
 
 # Pauses the script before cleaning up
 time.sleep(1)
