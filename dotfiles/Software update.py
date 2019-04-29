@@ -15,6 +15,7 @@ time.sleep(1)
 
 # Cleanup after running updates
 os.system('brew cleanup ; brew cleanup -s')
+os.system("find . -type f -name '*.DS_Store' -ls -delete")
 
 print('Cleanup is done. Checking for macOS updates...\n')
 
