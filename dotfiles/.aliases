@@ -19,7 +19,7 @@ alias grep="grep --color=always" # Show results of search in color
 # File operations
 alias mv='mv -v' # Move -verbose
 alias cp='cp -v' # Copy -verbose
-alias rm='rm -vi' # Remove -verbose and interactive
+alias rm='rm -v' # Remove -verbose
 alias empty="sudo rm -rf ~/.Trash/*" # Take out the trash
 
 # System
