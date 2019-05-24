@@ -14,8 +14,7 @@ echo "Brew updates are done. Now doing some cleanup."
 sleep 1
 
 # Cleanup after running updates
-brew cleanup
-brew cleanup -s
+brew cleanup;brew cleanup -s
 
 echo ""
 echo "Cleanup is done. Checking for macOS updates."
