@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Define prompt colors
 reset="\e[0m"
 black="\e[30m"

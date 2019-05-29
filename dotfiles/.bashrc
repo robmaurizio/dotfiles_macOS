@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Set the default editor to atom
 export EDITOR=atom;
 
