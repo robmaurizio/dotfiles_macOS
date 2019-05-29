@@ -26,6 +26,7 @@ alias empty="sudo rm -rf ~/.Trash/*" # Take out the trash
 alias ps='ps -acmx'
 alias root='sudo -i' # Allow root access
 alias rebootnow='sudo shutdown -r now'
+alias sleepnow='pmset sleepnow'
 alias sudo='sudo ' # Make aliases sudo-able
 alias bashrc='edit ~/.bashrc'
 alias grep="grep -Hn --color=auto" # Show results of search in color
