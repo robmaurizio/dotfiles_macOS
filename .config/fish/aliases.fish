@@ -41,5 +41,5 @@ alias edit='atom'
 alias gcommit="git add . && git commit -m"
 alias gpush='git push'
 alias gpull='git pull'
-alias boot='python ~/dotfiles/boot.py'
+alias boot='python ~/dotfiles/scripts/boot.py'
 alias weather='curl http://wttr.in/Chicago'
