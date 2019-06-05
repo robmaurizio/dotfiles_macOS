@@ -31,8 +31,8 @@ alias sudo='sudo ' # Make aliases sudo-able
 alias grep="grep -Hn --color=auto" # Show results of search in color
 
 #### Software updates and cleanup ####
-alias update='python ~/dotfiles/Software\ update.py' # Look for application and macOS updates
-alias reload='source ~/dotfiles/.bashrc'
+alias update='python ~/dotfiles/scripts/Software\ update.py' # Look for application and macOS updates
+alias reload='source ~/.config/fish/config.fish'
 alias cleanupds="find . -type f -name '*.DS_Store' -ls -delete"
 
 #### Applications ####
