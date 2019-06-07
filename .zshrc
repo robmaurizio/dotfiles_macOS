@@ -10,13 +10,16 @@ export ZSH="/Users/rob/.oh-my-zsh"
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="common"
 
-### Load plugins ###
+### plugins ###
 
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
-# User configuration
+### Load autosuggestions ###
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+### User configuration ###
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -26,6 +29,3 @@ source ~/dotfiles/.functions
 
 ### Set editor ###
 export EDITOR=/usr/local/bin/nano
-
-### Load commandline autosuggestions ###
-source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
