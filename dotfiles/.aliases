@@ -1,6 +1,8 @@
-#!/bin/bash
+#!/bin/env/zsh
 
-### Navigation #####
+##################
+#   Navigation   #
+##################
 alias ..="cd .."
 alias cd..="cd .."
 alias c="clear"
@@ -8,7 +10,9 @@ alias q='exit'
 alias ls='ls -FG' # List files in the current directory
 alias la='ls -aFG' # List (all) files in the current directory
 
-#### Directories ####
+###################
+#   Directories   #
+###################
 alias apps='cd /Applications'
 alias gd='cd ~/Google\ Drive/'
 alias pydir='cd ~/Google\ Drive/Python'
@@ -18,27 +22,35 @@ alias dl='cd ~/Downloads/'
 alias hs='history | grep'
 alias grep="grep --color=always" # Show results of search in color
 
-#### File operations ####
+###################
+#    Operations   #
+###################
 alias mv='mv -v' # Move -verbose
 alias cp='cp -v' # Copy -verbose
 alias rm='rm -v' # Remove -verbose
 alias empty="sudo rm -rf ~/.Trash/*" # Take out the trash
 
-#### System ####
+###################
+#     System      #
+###################
 alias ps='ps -acmx'
 alias root='sudo -i' # Allow root access
 alias rebootnow='sudo shutdown -r now'
 alias sleepnow='pmset sleepnow'
 alias sudo='sudo ' # Make aliases sudo-able
-alias bashrc='edit ~/.bashrc'
+alias zshrc='edit ~/.zshrc'
 alias grep="grep -Hn --color=auto" # Show results of search in color
 
-#### Software updates and cleanup ####
+###################
+#     Updates     #
+###################
 alias update='python ~/dotfiles/scripts/Software\ update.py' # Look for application and macOS updates
-alias reload='source ~/dotfiles/.bashrc'
+alias reload='source ~/.zshrc'
 alias cleanupds="find . -type f -name '*.DS_Store' -ls -delete"
 
-#### Applications ####
+###################
+#  Applications   #
+###################
 alias python='python3'
 alias edit='atom'
 alias gcommit="git add . && git commit -m"
