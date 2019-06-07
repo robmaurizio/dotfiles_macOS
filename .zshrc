@@ -24,8 +24,8 @@ source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 # export MANPATH="/usr/local/man:$MANPATH"
 
 ### Load dotfiles ###
-source ~/dotfiles/.aliases
-source ~/dotfiles/.functions
+source ~/.aliases
+source ~/.functions
 
 ### Set editor ###
 export EDITOR=/usr/local/bin/nano
