@@ -44,7 +44,7 @@ alias grep="grep -Hn --color=auto" # Show results of search in color
 ###################
 #     Updates     #
 ###################
-alias update='python ~/dotfiles/scripts/Software\ update.py' # Look for application and macOS updates
+alias update='python ~/scripts/Software\ update.py' # Look for application and macOS updates
 alias reload='source ~/.zshrc'
 alias cleanupds="find . -type f -name '*.DS_Store' -ls -delete"
 
@@ -56,5 +56,5 @@ alias edit='atom'
 alias gcommit="git add . && git commit -m"
 alias gpush='git push'
 alias gpull='git pull'
-alias boot='python ~/dotfiles/scripts/boot.py'
+alias boot='python ~/scripts/boot.py'
 alias weather='curl http://wttr.in/Chicago'
