@@ -19,6 +19,9 @@ source $ZSH/oh-my-zsh.sh
 ### Load autosuggestions ###
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
+### Load completions ###
+fpath=(/usr/local/share/zsh-completions $fpath)
+
 ### User configuration ###
 
 # export MANPATH="/usr/local/man:$MANPATH"
