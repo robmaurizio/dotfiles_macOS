@@ -16,12 +16,6 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
-### Load autosuggestions ###
-source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-
-### Load completions ###
-fpath=(/usr/local/share/zsh-completions $fpath)
-
 ### User configuration ###
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -32,3 +26,12 @@ source ~/.functions
 
 ### Set editor ###
 export EDITOR=/usr/local/bin/nano
+
+### Enable autosuggestions ###
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+### Enable completions ###
+fpath=(/usr/local/share/zsh-completions $fpath)
+
+### Enable syntax highlighting ###
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
