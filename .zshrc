@@ -12,6 +12,11 @@ source ~/.aliases
 source ~/.functions
 source ~/.prompt
 
+### Set bind keys ###
+bindkey -v
+bindkey '^a' beginning-of-line
+bindkey '^e' end-of-line
+
 ### Set editor ###
 export EDITOR=/usr/local/bin/nano
 
