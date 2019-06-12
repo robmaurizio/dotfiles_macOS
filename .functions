@@ -1,16 +1,21 @@
-#!/bin/bash
+#!/usr/bin/env zsh
 
-# Open a man page as PDF for a better reading experience
+### `ls` after `cd` ###
+function cd {
+  builtin cd "$@" && ls
+}
+
+### Open a man page as PDF for a better reading experience ###
 function manpdf() {
   man -t "$1" | open -f -a /Applications/Preview.app/
 }
 
-# Create a new directory and enter it
+### Create a new directory and enter it ###
 function mkd() {
 	mkdir -p "$@" && cd "$_";
 }
 
-# Determine size of a file or total size of a directory
+### Determine size of a file or total size of a directory ###
 function fs() {
 	if du -b /dev/null > /dev/null 2>&1; then
 		local arg=-sbh;

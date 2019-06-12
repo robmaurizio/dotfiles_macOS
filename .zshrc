@@ -1,9 +1,14 @@
 #!/usr/bin/env zsh
 
-### history ###
+### Set history file location and length ###
 HISTFILE=$HOME/.zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
+
+### Case-insensitive command completion ###
+zstyle ':completion:*' menu select
+zstyle ':completion:*' completer _complete
+zstyle ':completion:*' matcher-list '' 'm:{[:lower:][:upper:]}={[:upper:][:lower:]}' '+l:|=* r:|=*'
 
 autoload -U compinit && compinit
 
@@ -20,14 +25,8 @@ bindkey '^e' end-of-line
 ### Set editor ###
 export EDITOR=/usr/local/bin/nano
 
-### Enable autosuggestions ###
+### Load zsh plugins ###
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-
-### Enable completions ###
-fpath=(/usr/local/share/zsh-completions $fpath)
-
-### Enable history substring searching ###
 source /usr/local/share/zsh-history-substring-search/zsh-history-substring-search.zsh
-
-### Enable syntax highlighting ###
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+fpath=(/usr/local/share/zsh-completions $fpath)
