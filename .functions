@@ -1,6 +1,6 @@
 #!/usr/bin/env zsh
 
-### `ls` after `cd` ###
+### Lists files after changing directories ###
 function cd {
   builtin cd "$@" && ls
 }
