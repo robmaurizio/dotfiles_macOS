@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/env/zsh
 
 # Ask for the administrator password upfront
 sudo -v
@@ -52,7 +52,7 @@ sudo pmset -a hibernatemode 0
 ###############################################################################
 
 # Stop iTunes from responding to the keyboard media keys
-#launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist 2> /dev/null
+launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist 2> /dev/null
 
 ###############################################################################
 # Screen                                                                      #
@@ -138,9 +138,6 @@ defaults write com.apple.dock show-process-indicators -bool true
 
 # Show only open applications in the Dock
 # defaults write com.apple.dock static-only -bool true
-
-# Don’t animate opening applications from the Dock
-# defaults write com.apple.dock launchanim -bool false
 
 # Disable Dashboard
 defaults write com.apple.dashboard mcx-disabled -bool true
