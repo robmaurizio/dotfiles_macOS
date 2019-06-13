@@ -12,6 +12,9 @@ zstyle ':completion:*' matcher-list '' 'm:{[:lower:][:upper:]}={[:upper:][:lower
 
 autoload -U compinit && compinit
 
+### Enable color output ###
+export CLICOLOR=1
+
 ### Load dotfiles ###
 source ~/.aliases
 source ~/.functions
