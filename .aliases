@@ -54,7 +54,6 @@ alias cleanupds="find . -type f -name '*.DS_Store' -ls -delete"
 #  Applications   #
 ###################
 alias edit='atom'
-alias ff='open -a Firefox'
 alias gcommit="git add . && git commit -m"
 alias gpull='git pull'
 alias gpush='git push'
