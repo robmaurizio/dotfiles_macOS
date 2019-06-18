@@ -34,6 +34,7 @@ alias empty="sudo rm -rf ~/.Trash/*" # Take out the trash
 ###################
 #     System      #
 ###################
+alias boot='python ~/scripts/boot.py'
 alias ps='ps -acmx'
 alias root='sudo -i' # Allow root access
 alias rebootnow='sudo shutdown -r now'
@@ -52,10 +53,12 @@ alias cleanupds="find . -type f -name '*.DS_Store' -ls -delete"
 ###################
 #  Applications   #
 ###################
-alias python='python3'
 alias edit='atom'
+alias ff='open -a Firefox'
 alias gcommit="git add . && git commit -m"
-alias gpush='git push'
 alias gpull='git pull'
-alias boot='python ~/scripts/boot.py'
+alias gpush='git push'
+alias satom='sudo atom' # Open file with admin rights
+alias sedit='sudo edit' # Open file with admin rights
+alias python='python3'
 alias weather='curl http://wttr.in/Chicago'
