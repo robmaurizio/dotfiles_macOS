@@ -5,12 +5,12 @@ function cd {
   builtin cd "$@" && ls
 }
 
-### Open a man page as PDF for a better reading experience ###
+### Open a manual (man) page as a PDF file in Preview ###
 function manpdf() {
   man -t "$1" | open -f -a /Applications/Preview.app/
 }
 
-### Create a new directory and enter it ###
+### Creates a new directory and enter it ###
 function mkd() {
 	mkdir -p "$@" && cd "$_";
 }
