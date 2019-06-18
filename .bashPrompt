@@ -14,6 +14,7 @@ lightgray="\e[37m"
 yellow="\e[33m"
 
 # Customize and set the prompt
+  # Working directory ❯❯❯
 PS1="\[${orange}\]\W ";
 PS1+="\[${red}\]❯";
 PS1+="\[${yellow}\]❯";
