@@ -1,4 +1,4 @@
-#!/usr/bin/env zsh
+#!/usr/bin/bash
 
 # Turn off auto-complete case sensitivity
 set completion-ignore-case on
