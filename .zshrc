@@ -25,7 +25,7 @@ bindkey -v
 bindkey '^a' beginning-of-line
 bindkey '^e' end-of-line
 
-### Set editor ###
+### Set Nano as default Terminal editor ###
 export EDITOR=/usr/local/bin/nano
 
 ### Load zsh plugins ###
