@@ -40,6 +40,7 @@ alias ps='ps -acmx'
 alias root='sudo -i' # Allow root access
 alias rebootnow='sudo shutdown -r now'
 alias sleepnow='pmset sleepnow'
+alias lock="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
 alias sudo='sudo ' # Make aliases sudo-able
 alias zshrc='edit ~/.zshrc'
 alias grep="grep -Hn --color=auto" # Show results of search in color
