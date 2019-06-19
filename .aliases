@@ -10,6 +10,7 @@ alias q='exit'
 alias ls='ls -FG' # List files in the current directory
 alias la='ls -aFG' # List (all) files in the current directory
 alias ll='ls -l' # List files as a list in the current directory
+alias ld="ls -ld */"   # List files in long format, only directories
 
 ###################
 #   Directories   #
