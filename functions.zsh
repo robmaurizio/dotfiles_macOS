@@ -5,7 +5,7 @@ function cd {
 
 ### Open a manual (man) page as a PDF file in Preview ###
 function pman() {
-  man -t "$1" | open -f -a /Applications/Preview.app/
+  man -t "$1" | open -f -a Preview
 }
 
 ### Creates a new directory and enter it ###
