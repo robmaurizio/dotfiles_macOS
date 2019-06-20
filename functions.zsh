@@ -1,3 +1,5 @@
+#!/bin/sh
+
 ### Lists files after changing directories ###
 function cd {
   builtin cd "$@" && ls
