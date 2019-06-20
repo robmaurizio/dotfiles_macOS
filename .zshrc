@@ -1,5 +1,3 @@
-#!/usr/bin/env zsh
-
 ### Set history file location and length ###
 HISTFILE=$HOME/.zsh_history
 HISTSIZE=10000
