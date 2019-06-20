@@ -6,7 +6,7 @@ function cd {
 }
 
 ### Open a manual (man) page as a PDF file in Preview ###
-function manpdf() {
+function pman() {
   man -t "$1" | open -f -a /Applications/Preview.app/
 }
 
