@@ -1,4 +1,4 @@
-#!/usr/bin/env zsh
+#!/bin/sh
 
 ### Lists files after changing directories ###
 function cd {
