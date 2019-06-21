@@ -30,7 +30,7 @@ alias grep='grep --color=always' # Show results of search in color
 alias mv='mv -i' # Move -interactive
 alias cp='cp -i' # Copy -interactive
 alias rm='rm -i' # Remove (delete) -interactive
-alias empty='sudo rm -rf /Users/$USER/.Trash/*' # Take out the trash
+alias empty='sudo rm -rf /Users/$USER/.Trash/*' # Empty the trash
 
 ###################
 #     System      #
