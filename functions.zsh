@@ -1,13 +1,11 @@
-#!/usr/bin/env zsh
-
 ### Lists files after changing directories ###
 function cd {
   builtin cd "$@" && ls
 }
 
 ### Open a manual (man) page as a PDF file in Preview ###
-function manpdf() {
-  man -t "$1" | open -f -a /Applications/Preview.app/
+function pman() {
+  man -t "$1" | open -f -a Preview
 }
 
 ### Creates a new directory and enter it ###
