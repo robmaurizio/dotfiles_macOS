@@ -117,6 +117,11 @@ defaults write com.apple.finder FXInfoPanesExpanded -dict \
 	OpenWith -bool true \
 	Privileges -bool true
 
+# Disable Gatekeeper so software can be installed from anywhere
+	sudo spctl --master-disable
+	sudo defaults write /var/db/SystemPolicy-prefs.plist enabled -string no
+	defaults write com.apple.LaunchServices LSQuarantine -bool false
+
 ###############################################################################
 # Dock, Dashboard, and hot corners                                            #
 ###############################################################################
