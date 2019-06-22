@@ -113,9 +113,9 @@ chflags nohidden ~/Library
 # Expand the following File Info panes:
 # “General”, “Open with”, and “Sharing & Permissions”
 defaults write com.apple.finder FXInfoPanesExpanded -dict \
-	General -bool true \
-	OpenWith -bool true \
-	Privileges -bool true
+General -bool true \
+OpenWith -bool true \
+Privileges -bool true
 
 # Disable Gatekeeper so software can be installed from anywhere
 	sudo spctl --master-disable
