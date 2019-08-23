@@ -26,3 +26,5 @@ time.sleep(1)
 os.system('softwareupdate -ia')
 
 print('\nFinished! Your system is ready.\n')
+
+os.system('exit')
