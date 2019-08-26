@@ -46,7 +46,7 @@ alias grep='grep -Hn --color=auto' # Show results of search in color
 ###################
 #     Updates     #
 ###################
-alias update='python /Users/$USER/scripts/softwareUpdate.py' # Look for application and macOS updates
+alias update='./Users/$USER/scripts/softwareUpdate.sh' # Look for application and macOS updates
 alias reload='source /Users/$USER/.zshrc'
 alias cleanupds="find . -type f -name '*.DS_Store' -ls -delete"
 
@@ -59,5 +59,4 @@ alias gpu='git pull'
 alias gp='git push'
 alias satom='sudo atom' # Open file with admin rights
 alias sedit='sudo edit' # Open file with admin rights
-alias python='python3'
 alias weather='curl http://wttr.in/Chicago'
