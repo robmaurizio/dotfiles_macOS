@@ -46,7 +46,7 @@ alias grep='grep -Hn --color=auto' # Show results of search in color
 ###################
 #     Updates     #
 ###################
-alias update='./Users/$USER/scripts/softwareUpdate.sh' # Look for application and macOS updates
+alias update='. /Users/$USER/scripts/softwareUpdate.sh' # Look for application and macOS updates
 alias reload='source /Users/$USER/.zshrc'
 alias cleanupds="find . -type f -name '*.DS_Store' -ls -delete"
 
