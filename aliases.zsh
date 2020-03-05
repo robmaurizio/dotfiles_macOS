@@ -57,5 +57,4 @@ alias edit='code'
 alias gc="git add . && git commit -m"
 alias gpu='git pull'
 alias gp='git push'
-alias satom='sudo atom' # Open file with admin rights
 alias sedit='sudo edit' # Open file with admin rights
