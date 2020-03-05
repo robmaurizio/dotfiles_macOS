@@ -22,12 +22,14 @@ source /Users/$USER/prompt.zsh
 bindkey -v
 bindkey '^a' beginning-of-line
 bindkey '^e' end-of-line
+bindkey '^[[A' history-substring-search-up
+bindkey '^[[B' history-substring-search-down
 
 ### Set Nano as default Terminal editor ###
 export EDITOR=/usr/local/bin/nano
 
 ### Load zsh plugins ###
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /usr/local/share/zsh-history-substring-search/zsh-history-substring-search.zsh
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/local/share/zsh-history-substring-search/zsh-history-substring-search.zsh
 fpath=(/usr/local/share/zsh-completions $fpath)
