@@ -25,9 +25,9 @@ alias grep='grep --color=always' # Show results of search in color
 ###################
 #    Operations   #
 ###################
-alias mv='mv -i' # Move -interactive
-alias cp='cp -i' # Copy -interactive
-alias rm='rm -i' # Remove (delete) -interactive
+alias mv='mv -v' # Move -interactive
+alias cp='cp -v' # Copy -interactive
+alias rm='rm -v' # Remove (delete) -interactive
 alias empty='sudo rm -rf /Users/$USER/.Trash/*' # Take out the trash
 
 ###################
@@ -52,7 +52,8 @@ alias cleanupds="find . -type f -name '*.DS_Store' -ls -delete"
 ###################
 #  Applications   #
 ###################
-alias edit="open -a code"
+alias start='bash /Users/$USER/scripts/startDay.sh'
+alias edit="code"
 alias gc="git add . && git commit -m"
 alias gpu='git pull'
 alias gp='git push'
