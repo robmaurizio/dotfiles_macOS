@@ -5,7 +5,7 @@ import os
 print('\nChecking for software updates via Brew...')
 
 # Updates Homebrew, taps, and repos
-os.system('brew update ; brew upgrade ; brew cask upgrade')
+os.system('brew update ; brew upgrade ; brew upgrade --cask')
 
 print('\nUpdates are done. Now for some cleanup...')
 
