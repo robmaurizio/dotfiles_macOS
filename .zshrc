@@ -14,9 +14,9 @@ autoload -U compinit && compinit
 export CLICOLOR=1
 
 ### Load dotfiles ###
-source /Users/$USER/aliases.zsh
-source /Users/$USER/functions.zsh
-source /Users/$USER/prompt.zsh
+source /Users/$USER/dotfiles_macOS/aliases.zsh
+source /Users/$USER/dotfiles_macOS/functions.zsh
+source /Users/$USER/dotfiles_macOS/prompt.zsh
 
 ### Set bind keys ###
 bindkey -v
@@ -29,6 +29,7 @@ bindkey '^[[B' history-substring-search-down
 export EDITOR=/usr/local/bin/nano
 
 ### Load zsh plugins ###
-source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /usr/local/share/zsh-history-substring-search/zsh-history-substring-search.zsh
-fpath=(/usr/local/share/zsh-completions $fpath)
+source /Users/$USER/dotfiles_macOS/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /Users/$USER/dotfiles_macOS/zsh-history-substring-search/zsh-history-substring-search.zsh
+fpath=(/Users/$USER/dotfiles_macOS/zsh-completions $fpath)
+
