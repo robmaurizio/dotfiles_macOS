@@ -58,3 +58,4 @@ alias gc="git add . && git commit -m"
 alias gpu='git pull'
 alias gp='git push'
 alias gam='/Users/$USER/bin/gam/gam'
+alias python='python3'
