@@ -52,10 +52,9 @@ alias cleanupds="find . -type f -name '*.DS_Store' -ls -delete"
 ###################
 #  Applications   #
 ###################
-alias start='bash /Users/$USER/scripts/startDay.sh'
 alias edit="code"
-alias gc="git add . && git commit -m"
-alias gpu='git pull'
-alias gp='git push'
+alias gcomm="git add . && git commit -m"
+alias gpull='git pull'
+alias gpush='git push'
 alias gam='/Users/$USER/bin/gam/gam'
 alias python='python3'
