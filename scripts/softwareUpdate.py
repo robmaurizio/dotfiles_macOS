@@ -17,4 +17,4 @@ print('Cleanup is done. Checking for macOS updates...\n')
 # Checks for macOS updates and install all available
 os.system('softwareupdate --install --all')
 
-print('\nFinished!')
+print('\nFinished!\n')
