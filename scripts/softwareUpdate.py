@@ -11,7 +11,6 @@ print('\nUpdates are done. Now for some cleanup...')
 
 # Cleanup after running updates
 os.system('brew cleanup')
-os.system("find . -type f -name '*.DS_Store' -ls -delete")
 
 print('Cleanup is done. Checking for macOS updates...\n')
 
