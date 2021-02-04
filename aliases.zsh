@@ -25,15 +25,15 @@ alias grep='grep --color=always' # Show results of search in color
 ###################
 #    Operations   #
 ###################
-alias mv='mv -v' # Move -interactive
-alias cp='cp -v' # Copy -interactive
-alias rm='rm -v' # Remove (delete) -interactive
+alias mv='mv -v' # Move -verbose
+alias cp='cp -v' # Copy -verbose
+alias rm='rm -v' # Remove (delete) -verbose
 alias empty='sudo rm -rf /Users/$USER/.Trash/*' # Take out the trash
 
 ###################
 #     System      #
 ###################
-alias ps='ps -acmx'
+alias ps='ps -chmx'
 alias root='sudo -i' # Allow root access
 alias rebootnow='sudo shutdown -r now'
 alias sleepnow='pmset sleepnow'
